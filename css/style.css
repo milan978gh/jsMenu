@@ -174,7 +174,7 @@ Menu
 }
 .underline {
   width: 5rem;
-  height: 0.25rem;
+  height: 1px;
   background: var(--clr-gold);
   margin-left: auto;
   margin-right: auto;
@@ -186,7 +186,7 @@ Menu
 }
 .filter-btn {
   background: transparent;
-  border-color: var(--clr-gold);
+  border: 2px solid var(--clr-gold);
   font-size: 1rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
@@ -224,7 +224,7 @@ Menu
 .item-info header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.5px dotted var(--clr-grey-5);
+  border-bottom: .5px dotted var(--clr-gold);
 }
 .item-info h4 {
   margin-bottom: 0.5rem;
