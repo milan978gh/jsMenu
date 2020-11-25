@@ -129,7 +129,7 @@ function displayMenuItems(menuItems) {
     sectionCenter.innerHTML = displayMenu;
 };
 
-function displayMenuBtns(){
+function displayMenuBtns() {
     const categories = menu.reduce(function (values, item) {
         if (!values.includes(item.category)) {
             values.push(item.category);
